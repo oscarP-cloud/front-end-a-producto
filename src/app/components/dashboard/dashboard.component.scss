@@ -1,0 +1,52 @@
+@mixin imagen {
+    width: 30px;
+    margin: 0px 15px 0px 0px;
+}
+
+.sidenav-container {
+    height: 93%;
+}
+
+.imagen {
+    @include imagen;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.enlace {
+    margin-top: 20px;
+}
+
+.sidenav {
+    width: 200px;
+    background: #0b2043;
+}
+
+.sidenav .mat-toolbar {
+    background: #0b2043;
+}
+
+.mat-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+mat-drawer-content {
+    background: #253b64;
+}
+
+.drawer {
+    display: block;
+    width: 20px;
+    height: 40px;
+    background: #1e3761;
+}
+
+.drawer:hover {
+    background: #0069FE;
+    text-transform: uppercase;
+}

@@ -1,0 +1,69 @@
+@mixin aspecto {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+}
+
+@mixin label {
+    font-size: 25px;
+    color: #dfdfdf;
+}
+
+@mixin inputs {
+    font-family: sans-serif;
+    outline: 0;
+    background: #10264B;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: 0 0 15px;
+    height: 40px;
+    border: 0px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.form {
+    margin-top: 100px;
+    padding: 50px;
+    background: #1e3761;
+    display: inline-table;
+    @include aspecto;
+}
+
+.button_login {
+    margin-top: 15px;
+    height: 40px;
+    font-family: sans-serif;
+    width: 100%;
+    border-radius: 20px 10px;
+    border: 0px;
+    font-size: 10px;
+    background: #4a5e80;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+}
+
+.button_login:hover {
+    background: #0069FE;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container {
+    text-align: center;
+}
+
+.form-label {
+    @include label;
+}
+
+.form-control {
+    @include inputs;
+    @include aspecto;
+}
+
+.seccion {
+    margin-top: 25px;
+}

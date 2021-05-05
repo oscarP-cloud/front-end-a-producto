@@ -1,0 +1,75 @@
+.form-label {
+    font-size: 25px;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.form-control {
+    font-family: sans-serif;
+    outline: 0;
+    background: #10264B;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: 0 0 15px;
+    height: 40px;
+    border: 0px;
+    font-size: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button_crear {
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px 10px;
+    border: 0px;
+    background: #4a5e80;
+}
+
+.button_crear:hover {
+    background: #0069FE;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+form {
+    display: inline-block;
+    margin-top: 10%;
+    width: 67%;
+    padding: 23px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    background: #1e3761;
+}
+
+.contenedor {
+    text-align: center;
+}

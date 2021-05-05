@@ -1,0 +1,15 @@
+<nav class="nav-bar">
+    <div class="space_icon" *ngIf="!auth.logIn(); else logOut">
+        <a [routerLink]="['/login']" routerLinkActive="router-link-active">
+            <img class="iconos" src="../../../assets/Icons/login.png" alt="">
+        </a>
+    </div>
+    <ng-template #logOut>
+        <div class="space_icon">
+            <div class="navbar-nav">
+                <a [routerLink]="['/home']" routerLinkActive="router-link-active">
+                    <img class="iconos" src="../../../assets/Icons/logout.png" (click)="auth.logout()"></a>
+            </div>
+        </div>
+    </ng-template>
+</nav>

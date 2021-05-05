@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+$fondo: #253b64;
+html,
+body {
+    height: 100%;
+    background: $fondo;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+}

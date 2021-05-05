@@ -1,0 +1,29 @@
+$tamano: 40px;
+$nav-background: #161f42;
+.iconos {
+    width: $tamano;
+}
+
+.nav-bar {
+    height: 65px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    box-shadow: 2px 2px 2px rgba(70, 65, 65, 0.2);
+    width: 100%;
+    background: $nav-background;
+}
+
+.space_icon {
+    padding: 11px;
+    width: 65px;
+    border: 0px solid rgba($color: #e9e5e5, $alpha: 1.0);
+    text-align: center;
+}
+
+.logo {
+    width: $tamano;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
